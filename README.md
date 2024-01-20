@@ -1,9 +1,6 @@
-# ETLwithPython
-Extraction, Preparation and Transformation in a Database with Pandas to Create a Power BI Dashboard
-<p>  <br>
-  </p>
-  
+ 
 # ETL with Python 
+## Extraction, Preparation and Transformation in a Database with Pandas to Create a Power BI Dashboard
 <p>  <br>
   </p>
 
