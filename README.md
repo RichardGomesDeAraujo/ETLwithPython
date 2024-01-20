@@ -18,7 +18,7 @@
 - [**Alterado nome da coluna**](README.md#Alterado-nome-da-coluna)
 - [**Realizar Merge**](README.md#Realizar-Merge)
 - [**Criar um Database**](README.md#Criar-um-Database)
-- [**Salvando arquivo com extensão .csv**](README.md#Salvando-arquivo-com-extensão-.csv)
+- [**Salvando arquivo com extensão csv**](README.md#Salvando-arquivo-com-extensão-csv)
 
 
 <p>  <br>
@@ -26,7 +26,7 @@
   
 >## Importar Biblioteca
 ```PYTHON
-   import pandas as pd
+import pandas as pd
 ```
 ###### [⏪](README.md#Índice)
 <p>  <br>
@@ -34,7 +34,7 @@
 
 >## Ler um Arquivo CSV
 ```PYTHON
-    vendas = pd.read_csv(r'C:\Users\Usuario\Desktop\Richard Araujo\Currículos\Entrevistas\Testes\Kliente 360\Arquivos\Vendas.csv', sep = ';')
+vendas = pd.read_csv(r'C:\Users\Usuario\Desktop\Richard Araujo\Currículos\Entrevistas\Testes\Kliente 360\Arquivos\Vendas.csv', sep = ';')
 vendas.head(5)
 ```
 ###### [⏪](README.md#Índice)
@@ -43,7 +43,7 @@ vendas.head(5)
   
 >## Verificando total de linhas
 ```PYTHON
-   vendas['id_data'].tail(1)
+vendas['id_data'].tail(1)
 ```
 ###### [⏪](README.md#Índice)
 <p>  <br>
@@ -51,7 +51,7 @@ vendas.head(5)
 
 >## Alterado nome da coluna
 ```PYTHON
-   canais.rename({'cod_canal':'id_canal','canal':'canal'}, axis=1, inplace = True)
+canais.rename({'cod_canal':'id_canal','canal':'canal'}, axis=1, inplace = True)
 canais.head(1)
 ```
 ###### [⏪](README.md#Índice)
@@ -80,7 +80,7 @@ database.columns
 <p>  <br>
   </p>
 
->## Salvando arquivo com extensão .csv
+>## Salvando arquivo com extensão csv
 ```PYTHON
 database.to_csv(r'C:\Users\Usuario\Desktop\Richard Araujo\Currículos\Entrevistas\Testes\Kliente 360\Arquivos\database.csv',sep=';')
 database.describe()
