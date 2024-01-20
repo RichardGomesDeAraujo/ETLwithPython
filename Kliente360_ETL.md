@@ -1,3 +1,8 @@
+# Índice
+- [**Importar Biblioteca**](README.md#Importar-Biblioteca)
+- [**Ler o Arquivo**](README.md#Ler-o-Arquivo)
+- [**Verificando total de linhas do arquivo**](README.md#Verificando-total-de-linhas-do-arquivo)
+
 ## Importar Biblioteca
 
 
