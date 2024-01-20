@@ -24,9 +24,7 @@ Extraction, Preparation and Transformation in a Database with Pandas to Create a
   
 >## Importar Biblioteca
 ```PYTHON
-    UPDATE funcionarios
-    SET dpto = 'ADMINISTRATIVO'
-    WHERE dpto = 'ADMINSTRATIVO'
+   import pandas as pd
 ```
 ###### [⏪](README.md#Índice)
 <p>  <br>
