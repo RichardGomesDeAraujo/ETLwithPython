@@ -14,6 +14,11 @@
 # Índice
 - [**Importa Biblioteca**](README.md#Importar-Biblioteca)
 - [**Ler um Arquivo CSV**](README.md#Ler-um-Arquivo-CSV)
+- [**Verificando total de linhas**](README.md#Verificando-total-de-linhas)
+- [**Alterado nome da coluna**](README.md#Alterado-nome-da-coluna)
+- [**Realizar Merge**](README.md#Realizar-Merge)
+- [**Criar um Database**](README.md#Criar-um-Database)
+- [**Salvando arquivo com extensão .csv**](README.md#Salvando-arquivo-com-extensão-.csv)
 
 
 <p>  <br>
@@ -36,3 +41,50 @@ vendas.head(5)
 <p>  <br>
   </p>
   
+>## Verificando total de linhas
+```PYTHON
+   vendas['id_data'].tail(1)
+```
+###### [⏪](README.md#Índice)
+<p>  <br>
+  </p>
+
+>## Alterado nome da coluna
+```PYTHON
+   canais.rename({'cod_canal':'id_canal','canal':'canal'}, axis=1, inplace = True)
+canais.head(1)
+```
+###### [⏪](README.md#Índice)
+<p>  <br>
+  </p>
+
+>## Realizar Merge
+```PYTHON
+Merge1 = pd.merge(vendas,lojas)
+Merge2 = pd.merge(Merge1,negocios)
+Merge3 = pd.merge(Merge2,canais)
+Merge4 = pd.merge(Merge3,prod)
+Merge5 = pd.merge(Merge4,tipocliente)
+Merge5.columns
+```
+###### [⏪](README.md#Índice)
+<p>  <br>
+  </p>
+
+>## Criar um Database
+```PYTHON
+database = Merge5[['id_data','id_cupom','id_cliente','qtde_venda','valor_venda','valor_imposto','valor_custo','cod_loja','ano_abertura','regional','distrito','cidade','uf','unidade_negocio','canal','fornecedor','produto_nome','categoria','sub_categoria','tipo_cliente']]
+database.columns
+```
+###### [⏪](README.md#Índice)
+<p>  <br>
+  </p>
+
+>## Salvando arquivo com extensão .csv
+```PYTHON
+database.to_csv(r'C:\Users\Usuario\Desktop\Richard Araujo\Currículos\Entrevistas\Testes\Kliente 360\Arquivos\database.csv',sep=';')
+database.describe()
+```
+###### [⏪](README.md#Índice)
+<p>  <br>
+  </p>
