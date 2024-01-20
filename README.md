@@ -19,7 +19,7 @@
 - [**Realizar Merge**](README.md#Realizar-Merge)
 - [**Criar um Database**](README.md#Criar-um-Database)
 - [**Salvando arquivo com extensão csv**](README.md#Salvando-arquivo-com-extensão-csv)
-- [**Salvando valores agrupados**](README.md#Salvando-valores-agrupados)
+- [**Somando valores agrupados**](README.md#Somando-valores-agrupados)
 - [**Contando valores agrupados**](README.md#Contando-valores-agrupados)
 - [**Média dos valores agrupados**](README.md#Média-dos-valores-agrupados)
 - [**Visualização Gráfica**](README.md#Visualização-Gráfica)
