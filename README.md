@@ -25,6 +25,7 @@
 - [**Contando valores agrupados**](README.md#Contando-valores-agrupados)
 - [**Média dos valores agrupados**](README.md#Média-dos-valores-agrupados)
 - [**Visualização Gráfica**](README.md#Visualização-Gráfica)
+- [**Painel Power BI**](README.md#Painel-Power-BI)
 
 
 <p>  <br>
@@ -146,3 +147,6 @@ t6.plot(kind='bar',color='red',title='Avaliações vs Faturamento',xlabel='',yla
 <p>  <br>
   </p>
 
+>## Painel Power BI
+ <img src="Kliente360_1.png" align="Center" alt="Hands On Data" style="height: 180px; width:260px;"/>
+ <img src="Kliente360_2.png" align="Center" alt="Hands On Data" style="height: 180px; width:260px;"/>
